@@ -9,13 +9,47 @@
     -->  
 
     <style type="text/css">
+       
+      p {
+          font-size: xx-large;
+      }
+    
+      #grow:hover {
+  cursor: pointer;
+}
+
 
     </style>
 </head>
 <body>
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-
+    <h1>This is a Manifesto</h1>
+    <p>Let yourself fall. <span id="grow"> Look forward to dreaming.
+    Do it out of love. Dream wild, imaginative dreams. </span>
+    Let go of fear. </p>
+                    
+                    <script type="text/javascript">
+                        let g = document.
+                        getElementById("grow");
+                        
+                        // set the font-size property in JavaScript
+                        g.style.fontSize = "100%";
+                        
+                        // add a function to the onclick event
+                        g.onclick = function(){
+                        
+                             // determine current font size and convert it to an integer
+                             let fs = Number(this.style.fontSize.replace("%",""));
+                        
+                             // make sure it worked
+                             console.log(fs);
+                        
+                             // change the color of the clicked element 
+                             this.style.color = "red";
+                        
+                             // change the font size to increase it by 10%
+                             this.style.fontSize = fs * 1.1 + "%";
+                        };
+                        </script>
 </body>
 </html> 
