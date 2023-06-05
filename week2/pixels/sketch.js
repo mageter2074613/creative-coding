@@ -1,10 +1,9 @@
 
- let img;
-
-function preload() {
-  img = loadImage(mageter2074613.github.io/creative-coding/week2/pixels/desert-ge74263ace_1280.jpg);
+let img;
+function preload(){
+  img = loadImage('https://mageter2074613.github.io/creative-coding/week2/pixels/desert-ge74263ace_1280.jpg');
 }
-
+//mageter2074613.github.io/creative-coding/week2/pixels/desert-ge74263ace_1280.jpg
 function setup() {
   createCanvas(800, 800);
   img.loadPixels();
