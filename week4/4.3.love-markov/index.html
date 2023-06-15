@@ -19,18 +19,30 @@
             background-color:#334433;
         }
         main {
-            width: 100%;
-        }
-        canvas {
-            display:block;
-            margin: 0 auto;
-        }
+            display:none;
+    }
+    #source {
+      display:none;
+    }
+    #letter{
+      width:600px;
+      padding:2em;
+      background-color:#ccc;
+      margin-top:2em;
+      margin-left:2em;
+    }
     </style>
 
 </head>
 <body>
-    <main>
-    </main>
-    <script src="sketch.js"></script>
+    <div id="letter"></div>
+  <div id="source">
+
+    <!-- a bunch of text in here. -->
+</div>
+<script src="libraries/p5.js"></script>
+<script src="libraries/rita.js"></script>
+<script src="sketch.js"></script>
+   
 </body>
 </html> 
