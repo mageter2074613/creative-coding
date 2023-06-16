@@ -4,6 +4,9 @@
 
 // Reflecting on the Outcome: I'm satisfied with how the screensaver turned out. I used a combination of random movements and smooth transitions to create a sense of fluidity and calmness. The dark background allows the shapes to stand out and creates a soothing visual effect. Overall, I believe I achieved my goal of creating an interesting screensaver-style animation.
 
+// In this p5.js screensaver, I aimed to create an abstract animation that combines slow movements and mostly dark imagery, inspired by classic screensavers. The animation consists of randomly positioned and sized circles that move in a fluid and smooth manner. The colors of the circles transition in a gradient, creating a visually captivating effect. The intention is to provide a visually pleasing and calming experience that can be enjoyed indefinitely.
+
+// By experimenting with geometric shapes, color gradients, and smooth animations, this screensaver-style project captures the essence of traditional screensavers while adding a touch of modern creativity.
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
